@@ -726,6 +726,8 @@ section .card-testimonial .image img{
   padding: 30px;
   position: relative;
   z-index: 100;
+  border-bottom: 1px solid orange;
+  margin-bottom: 5rem;
 }
 
 .card-testimonial .name-profession{
