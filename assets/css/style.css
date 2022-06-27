@@ -73,8 +73,9 @@ section{
 }
 
 .btn:hover{
-  background:rgba(255, 165, 0,.2);
-  color:var(--orange);
+  background:#000;
+  color: #fff;
+  border:.2rem solid #000;
 }
 
 header{
@@ -109,7 +110,7 @@ header .navbar a:hover{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-left: -30%;
+    margin-left: -50%;
 }
 #menu-bar{
   color:#fff;
@@ -222,6 +223,7 @@ box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   width: 70%;
   font-size: 15px;
 }
+
 
 }
 
@@ -574,14 +576,16 @@ form .user-details .input-box{
   background: #fff;
   width: calc(33% - 20px);
   text-align: center;
-  padding: 15px 30px  30px 30px;
+  padding: 1px 10px  10px 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
-.contentPackage .card .top{
-  height: 130px;
+.contentPackage .card .top img{
+  object-fit: cover;
+  height: 2°0px;
   color: #fff;
+  width: 100%;
   padding: 12px 0 0 0 ;
-  clip-path: polygon(0 0, 100% 0, 100% 53%, 49% 100%, 0 53%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 53%, 49% 100%, 0 53%); */
 }
 
 .contentPackage .card .top .title{
@@ -620,12 +624,7 @@ form .user-details .input-box{
 .dollar, .decimal{
   font-size: 18px;
 }
-.contentPackage .card .details .one i{
-  color: #2db94d;
-}
-.contentPackage .card .details i.fa-times{
-  color: #cd3241;
-}
+
 .contentPackage .card button{
   outline: none;
   border: none;
@@ -640,30 +639,7 @@ form .user-details .input-box{
   cursor: pointer;
   letter-spacing: 1px;
 }
-.contentPackage .one .top,
-.contentPackage .one button{
-  background: #14eb6e;
-}
-.contentPackage .two .top,
-.contentPackage .two button{
-  background: #e87130;
-}
-.contentPackage .three .top,
-.contentPackage .three button{
-  background: #11BCC3;
-}
-.contentPackage button:hover {
-  filter: brightness(90%);
-}
-.contentPackage .one ::selection{
-background: #8af5b6;
-}
-.contentPackage .two ::selection{
-background:  #f2b08c;
-}
-.contentPackage .three ::selection{
-background: #d0f9fb;
-}
+
 .text-area{
   width: 100%;
 }
@@ -885,7 +861,7 @@ section .card-testimonial .image img{
 
 @media (max-width:768px){
   header .logo {
-    margin-left: -14rem;
+    margin-left: -25rem;
   }
   header img.logo-img{
     margin-right: 5rem;
