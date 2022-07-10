@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"); */
+
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.title h1 {
+    color: #000;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 10px;
+    position: relative;
+}
+
+.title h1::before {
+    content: "";
+    left: 0;
+    right: 30%;
+    position: absolute;
+    height: 2px;
+    background-color: #5f88e0;
+    bottom: -2px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+@media(max-width: 991px) {
+    .block h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 767px) {
+    .about .img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about .text {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    
+}
+
+@media(max-width: 500px) {
+ 
+    .about .about-content .social a {
+        margin: 0px 3px;
+    }
+   
+}
+        .about {
+  padding: 100px 15px;
+  background-color: #fff;
+}
+
+.img {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.text {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-left: 30px;
+}
+
+.text h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #000;
+}
+
+.text h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 25px;
+  color: #000;
+}
+.text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #838383;
+}
+    </style>
+</head>
+<body>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1>A propos de moi</h1>
+                    <p>Maintenant je parle de moi</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content">
+                    <div class="row">
+                        <div class="img">
+                            <img src="img/me.png" alt='a propos de Elvin Kyungu' />
+                        </div>
+                        <div class="text">
+                            <h4>Je m'appelle Elvin Kyungu</h4>
+                            <h6>Je suis <span>développeur Web front-end</span> j'habite Lubumbashi , République Democratique du Congo.
+                            </h6>
+                            <p>
+                                Je suis passionné par la création de sites web beaux, avec de belles interfaces et élégant. Ma spécialité est dans le web responsive design, c’est-à-dire je suis en mesure d’adapter un site sur n’importe quel écran (Télévision, Desktop, Tablette, ou nos
+                                Smartphones que nous utilisons fréquemment), je fais aussi de la programmation modulaire, c’est-à-dire je fais un code propre et que je réutilise presque partout en l’adaptant au besoin du client, je fais également
+                                de belles interfaces utilisateurs avec le Framework (Vue JS).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>

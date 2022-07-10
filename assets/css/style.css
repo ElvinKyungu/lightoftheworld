@@ -323,7 +323,12 @@ box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 .text-center {
   text-align: center !important;
 }
-
+.bold{
+  padding: 5rem 0;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: none;
+}
 .text-right {
   text-align: right !important;
 }
@@ -392,6 +397,7 @@ display: block;
 flex: 0 0 50%;
 max-width: 50%;
 padding-left: 30px;
+
 }
 
 .text h4 {
@@ -413,6 +419,7 @@ font-weight: 400;
 line-height: 24px;
 color: #838383;
 text-align: justify;
+text-transform: none;
 }
 
 /* Partie postuler */

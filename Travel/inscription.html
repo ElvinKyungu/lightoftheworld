@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscription</title>
+        <link rel="stylesheet" href="assets/css/authentification.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+        <div class="wrapper">   
+            <header>Inscrivez-vous</header>
+            <form action="#">
+                <div class="field pseudo">
+                    <div class="input-area">
+                        <input type="text" placeholder="Addresse e-mail">
+                        <i class="icon fas fa-user"></i>
+                        <i class="error error-icon fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="error error-txt pseudo-error">Le nom ne peut pas être vide</div>
+                </div>
+                <div class="field email">
+                    <div class="input-area">
+                        <input type="text" placeholder="Addresse e-mail">
+                        <i class="icon fas fa-envelope"></i>
+                        <i class="error error-icon fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="error error-txt">L'e-mail ne peut pas être vide</div>
+                </div>
+                <div class="field password">
+                    <div class="input-area">
+                        <input type="password" placeholder="Mot de passe">
+                        <i class="icon fas fa-lock"></i>
+                        <i class="error error-icon fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="error error-txt">Le mot de passe ne peut pas être vide</div>
+                </div>
+                <div class="pass-txt"><a href="#">Mot de passe oublié?</a></div>
+                <input type="submit" value="Login">
+            </form>
+            <div class="sign-txt">Pas encore membre? <a href="#">S'inscrire maintenant</a></div>
+        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
