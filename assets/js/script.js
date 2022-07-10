@@ -32,7 +32,7 @@ slides[manual].classList.add('active');
 btns.forEach((btn, i) => {
     btn.addEventListener("click", () => {
         manualNav(i);
-        currentSlide = i
+        currentSlide = i;
     });
 });
         
